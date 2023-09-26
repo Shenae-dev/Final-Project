@@ -28,13 +28,16 @@ public class AnimatorControllerTriggers : MonoBehaviour
          */
 
         //To duplicate this code block, select the code between this comment
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            anim.SetTrigger("YOUR_TRIGGER_NAME_HERE_INSIDE_THE_QUOTES");
-        }
+        // if (Input.GetKeyDown(KeyCode.A))
+        // {
+        //     anim.SetTrigger("YOUR_TRIGGER_NAME_HERE_INSIDE_THE_QUOTES");
+        // }
         //And this comment, then hit CTRL/CMD C to copy, and CTRL/CMD D to paste
         //starting on the line below this one!
-        
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            anim.SetTrigger("Jump");
+        }
 
     }
 }
